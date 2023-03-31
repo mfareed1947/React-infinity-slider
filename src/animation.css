@@ -1,0 +1,55 @@
+.animation-slider {
+  animation: infinty 15s linear infinite;
+}
+@keyframes infinty {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+.animation-slider-reverse {
+  animation: infintyReverse 15s linear infinite;
+}
+
+@keyframes infintyReverse {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0;
+  }
+} 
+
+@media screen and (max-width: 448px) {
+
+
+
+  .animation-slider {
+    animation: infinty 25s linear infinite;
+  }
+
+  @keyframes infinty {
+    from {
+      left: 0;
+    }
+    to {
+      left: -100%;
+    }
+  }
+
+  .animation-slider-reverse {
+    animation: infintyReverse 25s linear infinite;
+  }
+
+  @keyframes infintyReverse {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 0;
+    }
+  }
+}
